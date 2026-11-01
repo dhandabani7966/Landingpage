@@ -47,7 +47,9 @@ export const Navbar: React.FC<NavbarProps> = ({ onContactClick }) => {
               <img
                 src={cubeAICompany.logoUrl}
                 alt="Cube AI Solutions Logo"
-                className="h-7 sm:h-8 w-auto object-contain"
+                className="h-7 sm:h-8 w-auto object-contain max-h-8"
+                style={{ height: '32px', width: 'auto', maxHeight: '32px' }}
+                height={32}
               />
             </div>
 
@@ -61,7 +63,9 @@ export const Navbar: React.FC<NavbarProps> = ({ onContactClick }) => {
               <img
                 src={infosoftCompany.logoUrl}
                 alt="Infosoft USA Logo"
-                className="h-7 sm:h-8 w-auto object-contain"
+                className="h-7 sm:h-8 w-auto object-contain max-h-8"
+                style={{ height: '32px', width: 'auto', maxHeight: '32px' }}
+                height={32}
               />
             </div>
           </a>

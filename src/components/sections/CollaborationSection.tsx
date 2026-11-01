@@ -35,7 +35,8 @@ export const CollaborationSection: React.FC = () => {
                   <img
                     src={cubeAICompany.logoUrl}
                     alt="Cube AI Solutions Logo"
-                    className="h-9 w-auto object-contain"
+                    className="h-9 w-auto object-contain max-h-9"
+                    style={{ height: '36px', maxHeight: '36px', width: 'auto' }}
                   />
                 </div>
                 <span className="text-xs uppercase tracking-wider font-semibold text-[#0284C7] bg-sky-50 px-3 py-1 rounded-full border border-sky-200 font-mono">
@@ -95,7 +96,8 @@ export const CollaborationSection: React.FC = () => {
                   <img
                     src={infosoftCompany.logoUrl}
                     alt="Infosoft USA Logo"
-                    className="h-9 w-auto object-contain"
+                    className="h-9 w-auto object-contain max-h-9"
+                    style={{ height: '36px', maxHeight: '36px', width: 'auto' }}
                   />
                 </div>
                 <span className="text-xs uppercase tracking-wider font-semibold text-[#0284C7] bg-sky-50 px-3 py-1 rounded-full border border-sky-200 font-mono">

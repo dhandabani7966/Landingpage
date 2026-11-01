@@ -20,7 +20,8 @@ export const Footer: React.FC = () => {
                 <img
                   src={cubeAICompany.logoUrl}
                   alt="Cube AI Solutions"
-                  className="h-7 w-auto object-contain"
+                  className="h-7 w-auto object-contain max-h-7"
+                  style={{ height: '28px', maxHeight: '28px', width: 'auto' }}
                 />
               </div>
               <span className="text-slate-400 font-light text-base">×</span>
@@ -28,7 +29,8 @@ export const Footer: React.FC = () => {
                 <img
                   src={infosoftCompany.logoUrl}
                   alt="Infosoft USA"
-                  className="h-7 w-auto object-contain"
+                  className="h-7 w-auto object-contain max-h-7"
+                  style={{ height: '28px', maxHeight: '28px', width: 'auto' }}
                 />
               </div>
             </div>
